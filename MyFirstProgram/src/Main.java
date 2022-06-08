@@ -7,6 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+	
 		
 	}
 	
@@ -73,6 +74,20 @@ public class Main {
 		System.out.println("Hello " + name);
 		System.out.println("You are " + age + "year(s) old.");
 		System.out.println("Your favourite food is ");
+		
+	}
+
+	public static void useExpressions() {
+		
+		double friends = 10;
+		friends = friends + 1;
+		friends++;
+		friends--;
+		friends = (double)friends/3;
+		
+		
+		
+		System.out.println(friends);
 		
 	}
 }
