@@ -1,7 +1,31 @@
+import java.util.Scanner;
+
+
+
 
 public class Main {
 
 	public static void main(String[] args) {
+		
+		
+	}
+	
+	//This function is going to swap two variables with values.
+	public static void  SwapTwoVar() {
+		String x = "Water";
+		String y = "Coka Cola";
+		String temp;
+		
+		temp = y;
+		y = x;
+		x = temp;
+		
+		System.out.println("x: " + x);
+		System.out.println("y: " + y);
+
+	}
+	
+	public static void BasicKnowledage() {
 		int swt = 1;
 		if(swt==0) {
 			System.out.println("I love Pizza!\n");
@@ -34,24 +58,21 @@ public class Main {
 			char e = 'e';
 			String name = "David";
 		}
-		
-		SwapTwoVar();
 	}
-	
-	//This function is going to swap two variables with values.
-	public static void  SwapTwoVar() {
-		String x = "Water";
-		String y = "Coka Cola";
-		String temp;
-		
-		temp = y;
-		y = x;
-		x = temp;
-		
-		System.out.println("x: " + x);
-		System.out.println("y: " + y);
 
+	public static void useScanner() {
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("What is your name?");
+		String name = scanner.nextLine();
+		System.out.println("How old are you?");
+		int age = scanner.nextInt();
+		scanner.nextLine();//empty for the new line
+		System.out.println("What is your favourite food?");
+		String food = scanner.nextLine();
+		System.out.println("Hello " + name);
+		System.out.println("You are " + age + "year(s) old.");
+		System.out.println("Your favourite food is ");
+		
 	}
-	
-
 }
