@@ -12,7 +12,7 @@ public class A {
 		System.out.println(asub.protectedMessage);
 		
 		B b = new B();
-		System.out.println(b.privateMessage);
+//		System.out.println(b.privateMessage);
 
 	}
 
