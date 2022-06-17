@@ -17,7 +17,7 @@ public class main {
 		
 		
 		JLabel label = new JLabel(); // create a label
-		label.setText("Bro, do you even code?"); // set text of label
+		label.setText("Lusan is the most beautiful girl in the universe."); // set text of label
 		label.setIcon(image);
 		label.setHorizontalTextPosition(JLabel.CENTER); //set text left center or right	of  imageicon
 		label.setVerticalTextPosition(JLabel.TOP); //set text TOP, CENTER, BOTTOM of imageicon
