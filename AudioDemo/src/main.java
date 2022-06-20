@@ -18,7 +18,7 @@ public class main {
 		
 		
 
-		String response = "";
+		String response = " ";
 		
 		
 		while(!response.equals("Q")) {
