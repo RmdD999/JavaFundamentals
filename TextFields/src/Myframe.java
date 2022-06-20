@@ -21,6 +21,7 @@ public class Myframe extends JFrame implements ActionListener{
 		button = new JButton("Submit");
 		button.addActionListener(this);
 		
+		
 		textField = new JTextField();
 		textField.setPreferredSize(new Dimension(200,40));
 		textField.setFont(new Font("Consolas",Font.BOLD,30));
@@ -30,22 +31,18 @@ public class Myframe extends JFrame implements ActionListener{
 		textField.setText("username");
 		//textField.setEditable(false); //no one could modify this text field.
 		
-		
 		this.add(button);
 		this.add(textField);
 		this.pack();
 		this.setVisible(true);
 	}
+	
+	
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		
 		if(e.getSource() == button) {
 			String text = textField.getText();
-			if(!text.equals("username")) {
-				button.enable(false);
-				textField.setEditable(false);
-			}
-			
 			System.out.println(text);
 		}
 	}
