@@ -19,6 +19,7 @@ public class main {
 		System.out.println(human2.weight);
 		human2.eat();
 		human2.drink();
+
 		
 		
 	}
