@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ComboBox/ComboBox.iml" filepath="$PROJECT_DIR$/ComboBox/ComboBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/GithubTest.iml" filepath="$PROJECT_DIR$/.idea/GithubTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSliders/JSliders.iml" filepath="$PROJECT_DIR$/JSliders/JSliders.iml" />
       <module fileurl="file://$PROJECT_DIR$/tesd/tesd.iml" filepath="$PROJECT_DIR$/tesd/tesd.iml" />
     </modules>
   </component>
