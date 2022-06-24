@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ColorChooser/ColorChooser.iml" filepath="$PROJECT_DIR$/ColorChooser/ColorChooser.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComboBox/ComboBox.iml" filepath="$PROJECT_DIR$/ComboBox/ComboBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/GithubTest.iml" filepath="$PROJECT_DIR$/.idea/GithubTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JSliders/JSliders.iml" filepath="$PROJECT_DIR$/JSliders/JSliders.iml" />
