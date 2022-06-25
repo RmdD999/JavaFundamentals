@@ -27,13 +27,13 @@ public class Game {
         leftAction = new LeftAction();
         rightAction = new RightAction();
 
-        label.getInputMap().put(KeyStroke.getKeyStroke("UP"),"upAction");
+        label.getInputMap().put(KeyStroke.getKeyStroke("W"),"upAction");
         label.getActionMap().put("upAction",upAction);
-        label.getInputMap().put(KeyStroke.getKeyStroke("DOWN"),"downAction");
+        label.getInputMap().put(KeyStroke.getKeyStroke("S"),"downAction");
         label.getActionMap().put("downAction",downAction);
-        label.getInputMap().put(KeyStroke.getKeyStroke("LEFT"),"leftAction");
+        label.getInputMap().put(KeyStroke.getKeyStroke("A"),"leftAction");
         label.getActionMap().put("leftAction",leftAction);
-        label.getInputMap().put(KeyStroke.getKeyStroke("RIGHT"),"rightAction");
+        label.getInputMap().put(KeyStroke.getKeyStroke("D"),"rightAction");
         label.getActionMap().put("rightAction",rightAction);
 
         frame.add(label);
@@ -44,7 +44,7 @@ public class Game {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            label.setLocation(label.getX(),label.getY()+10);
+            label.setLocation(label.getX(),label.getY()-10);
         }
     }
 
@@ -52,7 +52,7 @@ public class Game {
 
         @Override
         public void actionPerformed(ActionEvent e) {
-            label.setLocation(label.getX(),label.getY()-10);
+            label.setLocation(label.getX(),label.getY()+10);
         }
     }
 
