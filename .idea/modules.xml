@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Animations2D/Animations2D.iml" filepath="$PROJECT_DIR$/Animations2D/Animations2D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desializer/Desializer.iml" filepath="$PROJECT_DIR$/Desializer/Desializer.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/GenericsClasses/GenericsClasses.iml" filepath="$PROJECT_DIR$/GenericsClasses/GenericsClasses.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/GithubTest.iml" filepath="$PROJECT_DIR$/.idea/GithubTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Serialization/Serialization.iml" filepath="$PROJECT_DIR$/Serialization/Serialization.iml" />
     </modules>
   </component>
 </project>
